@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CHESS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  height: 85%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("chessset.jpg")}
+.bgimg2 {background-image: url("board.png")}
+</style>
+</head>
+<body>
+
+<!-- Header / Chess-->
+<header class="w3-display-container w3-wide bgimg usw3-grayscale-min" id="Chess">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo" style="color:khaki">Chess</h1>
+    <h2 style="color:khaki">A board game between 2 players.</h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#Chess" style="width:25%" class="w3-bar-item w3-button">Chess</a>
+    <a href="#Board" style="width:25%" class="w3-bar-item w3-button">Board</a>
+    <a href="#Game" style="width:25%" class="w3-bar-item w3-button">Game</a>
+    <a href="#About" style="width:25%" class="w3-bar-item w3-button w3-hover-black">About</a>
+  </div>
+</div>
+
+<!-- About / Board -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="Board">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Board</b></h1>
+    <img class="w3-round w3-grayscale-min" src="board.png" style="width:60%; margin:3% 15%">
+    <p><i>It is played on a chessboard with 64 squares arranged in an eight-by-eight grid. 
+      At the start, each player controls sixteen pieces: one king, one queen, two rooks, two bishops, 
+      two knights, and eight pawns. The player controlling the white pieces moves first, followed by the 
+      player controlling the black pieces. </i>
+    </p><br>
+    <p class="w3-center"><a href="#Game" class="w3-button w3-black w3-round w3-padding-large w3-large">Game Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-black w3-center">
+    <h1 class="w3-jumbo">Current World Champion</h1><br>
+    <h2>Magnus Carlsen</h2>
+  </div>
+</div>
+
+<!-- Game information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="Game">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THE Game</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="piece.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      There are six different types of pieces: king, rook, bishop, queen, knight, and pawn; 
+      the pieces are distinguished by appearance and by how they move. 
+      The players alternate moves.
+      <br>
+      <br>
+      King can move one square in any direction. A rook can move vertically or horizontally to any 
+      unobstructed square along the file or rank on which it is placed. A bishop can move to any 
+      unobstructed square on the diagonal on which it is placed. Queen has the powers of the rook and bishop 
+      and is thus the most mobile and powerful piece. The knight has the trickiest move, an 
+      L-shape of two steps: first one square like a rook, then one square like a bishop, but always 
+      in a direction away from the starting square. 
+    </div>
+  </div>
+</div>
+
+<!-- About section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="About">
+  <h1>Made by Shristi Shrivastava</h1>
+  <h4>IIT Bombay - Electrical</h4>
+  <p class="w3-large">2023</p>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+    <p> Images and content are from google.</p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
